@@ -1,0 +1,26 @@
+@import "partials/base";
+
+.shop {
+    background: #F8F8F8;
+    .main-container {
+        @include outer-container;
+    }
+}
+
+@include media($breakpoint2) {}
+
+
+@include media($breakpoint3) {}
+
+
+@include media($breakpoint4) {}
+
+
+@include media($breakpoint5) {}
+
+
+// This sets the fixed min width for legagy browsers
+
+.legacy .device-header-xxl {
+    min-width: 1100px;
+}

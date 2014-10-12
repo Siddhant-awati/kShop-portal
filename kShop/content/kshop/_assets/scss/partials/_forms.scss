@@ -1,0 +1,26 @@
+$formSubmitButtonStart: #419eda;
+$formSubmitButtonEnd: #2f7cb4;
+$formResetButtonStart: $colorGreyLight;
+$formResetButtonEnd: #e6e6e6;
+$formResetButtonBorder: #bebebe;
+
+
+$formSubmitButtonHoverStart: #2870a7;
+$formSubmitButtonHoverEnd: #1d5c90;
+$formResetButtonHoverStart: #f2f3f4;
+$formResetButtonHoverEnd: #b1bcc9;
+$formResetButtonActive: #bfc5cc;
+
+
+$formBorderColor: #bebebe;
+$formBorderColorHover: darken($baseBorderColor, 10);
+$formBorderColorFocus: $colorBlueLight;
+$formBorderRadius: 0;
+$formBoxShadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+$formBoxShadowFocus: $formBoxShadow, 0 0 5px rgba($colorBlueDark, 0.2);
+$formFontSize: $baseFontSize;
+$formFontFamily: $frutiger55;
+
+$inputTextColor: #888888;
+$inputHelperColor: #8a93a5;
+$inputPlaceholderColor: $colorGreyDarker;

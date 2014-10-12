@@ -1,0 +1,36 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.shop a {
+  color: #419eda;
+}
+.shop a:hover, .shop a:active, .shop a:focus {
+  text-decoration: underline;
+}
+.shop .small {
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+
+.shop {
+  background: #F8F8F8;
+}
+.shop .main-container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.shop .main-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.legacy .device-header-xxl {
+  min-width: 1100px;
+}
+
+/*# sourceMappingURL=main.css.map */
