@@ -1,0 +1,10 @@
+/.sass-cache/
+*.sass-cache
+.gradle/
+.idea/
+content.iml
+*.DS_Store
+node_modules
+shop.modules.js
+../.DS_Store
+/_assets/js/shop.modules.js

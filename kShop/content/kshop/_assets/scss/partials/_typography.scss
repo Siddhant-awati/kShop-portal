@@ -11,13 +11,3 @@ $unitlessLineHeight: $baseLineHeight / ($baseLineHeight * 0 + 1);
 // Strip units from line-height: https://developer.mozilla.org/en-US/docs/Web/CSS/line-height#Prefer_unitless_numbers_for_line-height_values
 $headerLineHeight: $baseFontSize * 1.25;
 $baseBorderRadius: 0.25em;
-
-.shop {
-    a {
-        @include hoverActiveFocus(text-decoration, underline);
-        color: $colorBlueLight;
-    }
-    .small {
-        @include rem(font-size, 12px);
-    }
-}
