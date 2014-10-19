@@ -1,7 +1,7 @@
 @import "partials/base";
+@import "bourbon";
 
 .kshop {
-    background: red;
     .main-container {
         @include outer-container;
     }

@@ -1,0 +1,13 @@
+out
+.gradle
+*.ipr
+*.iws
+*.iml
+*target
+build
+.idea/*
+classes
+buildSrc
+content/shop/_assets/coverage
+npm-debug.log
+/.project

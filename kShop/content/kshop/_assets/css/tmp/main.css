@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-.kshop {
-  background: red;
-}
 .kshop .main-container {
   max-width: 1100px;
   margin-left: auto;
